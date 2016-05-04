@@ -21,3 +21,5 @@ The 3 testing tiers are:
 - Services
 - Backend
 - UI Testing
+
+Jimmy Romero Sejas
