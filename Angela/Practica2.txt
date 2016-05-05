@@ -1,0 +1,19 @@
+a) The way to add comments on ruby(inline - multiline)
+	R.- Ruby have to ways to create comments one is inline 
+	and the other is miltiline.
+
+	- To create inline comments we just have to add this symbol 
+	"#" at the beginning of a line. 
+	- To create multiline comments we have to write between these 
+	instruccions: =begin and =end
+
+b) When you should use each type
+	R.- When we can write a short line we use inline comments and 
+	we want to write a paragraph we have to use multiline comments.
+
+c) create and script using inline-multiline comments
+	R.- # This is an iline comment
+
+	    =begin this is a:
+		multiline comment
+	    =end
