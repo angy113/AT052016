@@ -1,0 +1,25 @@
+1. What is Ruby?
+
+Ruby is a open source programing language, 
+based on simplicity and productivity,
+it is reflexive and oriented to objects; 
+It has many features based on scripts.
+Is prefered by testers because it's natural to read and easy to write.
+
+2. What pros/cons you considered from the point explained in the class
+PROS
+- It has a easy way to understand and write code.
+- There aren't more ;
+- Simplicity at the time to implement code
+
+CONS
+- Ruby can't use many inheritances
+
+3. According what we talk today, what are the 3 testing tiers?
+
+The 3 testing tiers are:
+- Services
+- Backend
+- UI Testing
+
+Jimmy Romero Sejas

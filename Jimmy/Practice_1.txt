@@ -1,0 +1,27 @@
+Practice - 1 
+
+3. Put a # (octothorpe, hash, pound) character at the beginning of any line. 
+What did it do?
+ 
+Adding a #, at the beginning of the line
+It comments the line of code 
+
+4. Research
+	a) The way to add comments on ruby (inline – multiline)
+
+	# is used to comment a line of code (inline)
+
+	=begin
+	=end  is used to comment many lines of code (multiline)
+
+
+	b) When you should use each type
+	
+	# is used to comment a line of code meanwhile 
+
+	=begin
+	=end  is used to comment many lines of code, 
+	is very useful at the time to make documentation
+
+	
+	
