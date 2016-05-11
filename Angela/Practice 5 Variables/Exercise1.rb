@@ -6,29 +6,32 @@ class Father
 end
 
 class Child1 < Father
+	attr_reader :amount
+	def initialize
 	@amount=20
-	def self.money
 	@@money-=@amount
 	end
 end
 
 class Child2 < Father
+	attr_reader :amount
+	def initialize
 	@amount=10
-	def self.money
 	@@money-=@amount
 	end
 end
 
 class Child3 < Father
+	attr_reader :amount
+	def initialize
 	@amount=15
-	def self.money
 	@@money-=@amount
 	end
 end
 
 puts "Total father's amount = 50"
-puts "Child1: #{Child1.money}"
-puts "Child2: #{Child2.money}"
-puts "Child3: #{Child3.money}"
+puts "Child1: #{Child1.new.amount}"
+puts "Child2: #{Child2.new.amount}"
+puts "Child3: #{Child3.new.amount}"
 
 puts "\r\n Final father's amount: #{Father.money}"
