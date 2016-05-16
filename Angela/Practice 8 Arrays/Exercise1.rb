@@ -5,11 +5,8 @@ class ArrayClass
 		array2=[]
 	 array.length.times do |value|
 		array1.push(array[value].to_s)
-		if(value.to_i%2==0)then
-		 array2.push(array[value].to_i)
-		else 
-			array2.push(array[value].to_s)
-		end
+		(value.to_i%2==0)? array2.push(array[value].to_i : array2.push(array[value].to_s)
+		
 	 end
 	 return array,array1,array2
 	end
