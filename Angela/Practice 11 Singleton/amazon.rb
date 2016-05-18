@@ -23,7 +23,7 @@ class Store
 		}
 		if @itemAmount.has_key?(item)then
 			@itemAmount.each{|key,value|
-			if key==item then @itemQuantity.store(key,value+=amount) end
+			if key==item then @itemAmount.store(key,value+=amount) end
 		}
 		else
 			@itemAmount.store(item,amount)
