@@ -1,0 +1,66 @@
+-When and why BDD was defined
+ R.-It was originally named in 2003 by Dan North as a response
+ to test-driven development (TDD), including acceptance test or 
+ customer test driven development practices as found in extreme 
+ programming. Everything to encourage collaboration between 
+ developers, QA and non-technical or business participants in a 
+ software project.
+ BDD was defined to:
+	1.Avoid deliver somthing unwanted
+	2.Develop without thinking about functionality
+	3.Avoid unused code
+	4.Improve development times
+
+-The most important aspects of BDD
+ R.-BDD focuses on:
+	Where to start in the process
+	What to test and what not to test
+	How much to test in one go
+	What to call the tests
+	How to understand why a test fails
+
+-Why is useful and when could be applied.
+ R.- Because it has a language understandable to everyone involved called ubiquitous. 
+ Being a common language , BDD can even be used as part of documentation 
+ as evidence of acceptance of the project. 
+ You can also allow the customer, project manager , analysts, etc, to 
+ paricipate with developers in the definition and validation of 
+ specifications.
+
+-Which type of teams could implement BDD
+ R.-All kind of teams to encourage collaboration between 
+ developers, QA and non-technical or business participants in a 
+ software project.
+
+-Structure of a feature – Give an example
+ R.-The feature is conformed by Name,Size(optional)and priority.
+ Example: Name: Account Holder withdraws cash Priority:2
+
+-Structure of a user story – Give an example
+ R.-Title (one line describing the story)
+	Narrative:
+	As a [role]
+	I want [feature]
+	So that [benefit] 
+   Example:
+	As an Account Holder
+        I want to withdraw cash from an ATM
+        So that I can get money when the bank is closed
+ 
+-Structure of a scenario – Give an example
+ R.-Given some initial context (the givens)
+    When an event occurs
+    then ensure some outcomes
+
+    Example:
+	Scenario 1: Account has sufficient funds
+	Given the account balance is $100
+	When the Account Holder requests $20
+	Then the ATM should dispense $20
+
+-Differences between BDD and BDT
+ R.-In BDT, Tests in the form of plain text features descriptions 
+ with scenarios are typically written before anything else and 
+ verified by the non-technical stakeholders.
+ In other words developers don't participate in BDT because
+ is used in the process after development.
