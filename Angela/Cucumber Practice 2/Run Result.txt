@@ -1,0 +1,14 @@
+cucumber featureProff.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansicon/) to get coloured output on Windows
+0 scenarios
+0 steps
+0m0.000s
+
+cucumber featureProff.feature --dry-run
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansicon/) to get coloured output on Windows
+0 scenarios
+0 steps
+
+The first execute the feature and that is the reason to show the time execution.
+The second --dry-run switch tells Cucumber to parse the file without executing it. It
+just tell you if your Gherkin isn’t valid
