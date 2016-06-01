@@ -1,5 +1,6 @@
 require 'pathname'
 require 'yaml'
+
 def find_config_file(filename)
 
   root = Pathname.pwd
@@ -13,12 +14,14 @@ def find_config_file(filename)
   end
   raise 'Configuration file ' #{filename}' not found!'
 end
+
 def load_app_config_file(filename)
   config_file = find_config_file(filename)
   config = YAML.load_file(config_file)
   $app_context = config['app']['rootPath']
   return config
 end
+
 AfterConfiguration do |config|
   # read config file
   configuration = load_app_config_file('env.yml')
@@ -27,6 +30,6 @@ AfterConfiguration do |config|
   $app_user = configuration['app']['admin_user']
   $app_pass = configuration['app']['admin_pass']
   $app_host = configuration['app']['host']
-  puts "Features dwell in #{config.feature_dirs}"
+puts $app_user
 end
 
