@@ -4,7 +4,7 @@ Background: Login Application
 	When I give the username admin
 	 	And I insert the password admin123
 	Then I enter to the application
-Scenario: Sum
+Scenario: Operations
 	Given I have the numbers
 	|1|2|3|
 	When I select the option "Sum"
